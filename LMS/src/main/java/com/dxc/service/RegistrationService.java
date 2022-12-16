@@ -16,10 +16,10 @@ public class RegistrationService {
 			return repo.save(user);
 		}
 	public User fetchUserByUsername(String username) {
-		return repo.findByUsername(username);
+		return repo.findByUsername(username admin);
 	}
-	public User fetchUserByUsernameAndPassword(String username,String password) {
-		return repo.findByUsernameAndPassword(username, password);
+	public User fetchUserByUsernameAndPassword(String username,String password String admin) {
+		return repo.findByUsernameAndPassword(username, password, admin);
 	}
 
 }
